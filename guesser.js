@@ -4,7 +4,8 @@ var display = document.querySelector("div.styles__titleText___2nfVS-camelCase");
 function reactHandler(){return Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner.stateNode;};
 function generateRandomId() {
   // Generate a random 7-digit code with leading zeros
-  const randomId = Math.floor(Math.random() * 10000000);
+  const randomId = Math.floor(Math.random() * 9000000) + 1000000;
+  if (){}
   return randomId;
 }
 function checkGameExists() {
@@ -38,7 +39,6 @@ function checkGameExists() {
     })
     .catch(error => {
       console.error("Error:", error);
-      // Handle errors here
     });
 }
 
