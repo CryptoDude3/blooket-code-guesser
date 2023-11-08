@@ -5,7 +5,6 @@ function reactHandler(){return Object.values((function react(r = document.queryS
 function generateRandomId() {
   // Generate a random 7-digit code with leading zeros
   const randomId = Math.floor(Math.random() * 9000000) + 1000000;
-  if (){}
   return randomId;
 }
 function checkGameExists() {
