@@ -37,7 +37,7 @@ function checkGameExists() {
       }
     })
     .catch(error => {
-      console.error("Error:", error);
+      alert("Error:"+error);
     });
 }
 
